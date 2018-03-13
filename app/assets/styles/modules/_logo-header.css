@@ -1,0 +1,64 @@
+.logo-header {
+	width: auto;
+	border: 2px solid #000;
+
+	&__logo {
+
+		margin-left: auto;
+		margin-right: auto;
+
+		@mixin atMedium {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		}
+	}
+
+	li {
+		display: inline-block;
+		list-style: none;
+		padding-left: 30px;
+
+
+		@mixin atMedium {
+
+		padding-right: 20px;
+		}
+	}
+
+	&__phone {
+		color: black;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1rem;
+		max-width: 200px;
+		margin-top: 8px;
+		display: block;
+		padding: 5px 12px;
+		border-radius: 25px;
+		border: 1px solid black;
+
+		@mixin atMedium {
+		color: black;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 1.5rem;
+		max-width: 200px;
+		margin-top: 8px;
+		display: block;
+		padding: 5px 12px;
+		border-radius: 25px;
+		border: 1px solid black;
+
+		}
+
+	}
+
+	&__right-container {
+
+
+		@mixin atMedium{
+		float: right;
+		}
+	}
+
+}
