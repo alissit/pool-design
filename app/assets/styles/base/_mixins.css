@@ -7,21 +7,43 @@
 }
 
 
-define-mixin atSmall {
+@define-mixin galaxyS5 {
+	@media (min-width: 360px){
+		@mixin-content;
+	}
+}
+
+@define-mixin iPhone {
+	@media (min-width: 414px){
+		@mixin-content;
+	}
+}
+
+@define-mixin atSmall {
 	@media (min-width: 530px){
 		@mixin-content;
 	}
 }
 
-@define-mixin atMedium {
-	@media (min-width: 780px){
+@define-mixin iPad {
+	@media (min-width: 768px){
+		@mixin-content;
+	}
+}
+
+@define-mixin laptop {
+	@media (min-width: 1024px){
 		@mixin-content;
 	}
 }
 
 @define-mixin atLarge {
-	@media (min-width: 1030px){
+	@media (min-width: 1400px){
 		@mixin-content;
 	}
 }
+
+
+
+
 
