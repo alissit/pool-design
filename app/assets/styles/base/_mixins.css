@@ -31,6 +31,12 @@
 	}
 }
 
+@define-mixin atMedium {
+	@media (min-width: 850px){
+		@mixin-content;
+	}
+}
+
 @define-mixin laptop {
 	@media (min-width: 1024px){
 		@mixin-content;
