@@ -25,4 +25,16 @@
 	    border-top-width: 20px;
 	}
 	}
+
+	&-6 {
+
+		@mixin atMedium {
+			float: right;
+			width: 50%;
+			padding-right: 20px;
+		    padding-bottom: 20px;
+		    border-top-width: 20px;
+
+		}
+	}
 }

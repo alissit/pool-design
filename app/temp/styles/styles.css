@@ -56,6 +56,19 @@ img {
 	}
 
 
+@media (min-width: 780px){
+
+
+.row-6 {
+			float: right;
+			width: 50%;
+			padding-right: 20px;
+		    padding-bottom: 20px;
+		    border-top-width: 20px
+	}
+	}
+
+
 .wrapper {
 
 	padding-left: 18px;
@@ -204,4 +217,43 @@ img {
 /*		margin-top: 8px;*/
 		display: block;
 		padding: 5px 12px;
+	}
+
+
+.large-hero {
+
+	border-bottom: 10px solid #0D253E;
+	position: relative;
+}
+
+
+.large-hero__image {
+
+		display: block;
+	}
+
+
+.large-hero__text-content {
+
+		background-color: rgba(26, 75, 124, .75);
+
+	}
+
+
+@media (min-width: 780px){
+
+
+.large-hero__text-content {
+			color: white;
+		padding-top: 88px;
+		position: absolute;
+		top: 50%; /*this vertically centers the text, but we need to pull it up a bit still*/
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);/*pulls up the text 50% of itself vertically*/
+		left: 0;
+		width: 100%;
+		text-align: right;
+		max-width: 400px
+
+	}
 	}
