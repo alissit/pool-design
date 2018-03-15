@@ -1,0 +1,33 @@
+
+	.icon {
+		background-image: url("/temp/sprite/css/svg/sprite.css-99e5a52d.svg");
+	}
+	.icon--001-hot {
+		width: 490.29px;
+		height: 490.29px;
+		background-position: 0 99.92782425714896%;
+	}
+
+	.icon--002-shape {
+		width: 983px;
+		height: 983px;
+		background-position: 0 0;
+	}
+
+	.icon--003-construction {
+		width: 303.48px;
+		height: 303.48px;
+		background-position: 75.52707603417542% 53.063681098998735%;
+	}
+
+	.icon--004-summer {
+		width: 621.121px;
+		height: 621.121px;
+		background-position: 99.91065974576142% 0;
+	}
+
+	.icon--005-person {
+		width: 31.39px;
+		height: 31.39px;
+		background-position: 81.75342047902593% 43.05536492884425%;
+	}
