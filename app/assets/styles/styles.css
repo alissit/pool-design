@@ -5,3 +5,6 @@
 @import "./modules/_logo-header";
 @import "./modules/_primary-nav";
 @import "./modules/_large-hero";
+@import "./modules/_sprite";
+@import "./modules/_icons";
+@import "./modules/_page-section";

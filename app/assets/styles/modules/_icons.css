@@ -1,0 +1,49 @@
+.icons {
+
+		text-align: center;
+
+
+		&-container {/*__icon*/
+				
+				padding-top: 30px;
+
+				@mixin iPad{
+					display: inline-block;
+
+				}
+
+			}
+
+		&__image {/*.icon*/
+
+				height: 60px;
+				width: 60px;
+
+
+
+			@mixin iPad {
+				display: block;
+				margin: 30px 45px;
+			}
+
+
+			@mixin laptop{
+				display: block;
+				margin: 30px 60px;
+			}
+
+			@mixin atLarge{
+				margin: 30px 80px;
+
+			}
+		}
+
+	p {
+		text-align: center;
+		font-weight: 300;
+
+		@mixin laptop {
+			font-weight: 400;
+		}
+	}
+}
