@@ -2,6 +2,17 @@
 
 	@mixin clearfix;
 
+	&-4 {
+
+		width: 100%;
+
+		@mixin atMedium{
+			float: left;
+			width: 33.5%;
+			padding-right: 20px;
+			border-top-width: 20px;
+		}
+	}
 
 	&-5 {
 		width: 100%;
@@ -11,7 +22,7 @@
 		width: 41.66%;
 		padding-right: 20px;
 	    border-top-width: 20px;
-	}
+		}
 
 	}
 
@@ -24,7 +35,7 @@
 		padding-right: 20px;
 	    padding-bottom: 20px;
 	    border-top-width: 20px;
-	}
+		}
 	}
 
 	&-6 {
@@ -34,12 +45,7 @@
 			float: right;
 			width: 50%;
 			padding-right: 20px;
-<<<<<<< HEAD
-
-=======
->>>>>>> sprite
 		    border-top-width: 20px;
-
 		}
 	}
 }

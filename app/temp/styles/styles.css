@@ -24,6 +24,24 @@ img {
 	}
 
 
+.row-4 {
+
+		width: 100%;
+	}
+
+
+@media (min-width: 850px){
+
+
+.row-4 {
+			float: left;
+			width: 33.5%;
+			padding-right: 20px;
+			border-top-width: 20px
+	}
+	}
+
+
 .row-5 {
 		width: 100%;
 
@@ -73,10 +91,6 @@ img {
 			float: right;
 			width: 50%;
 			padding-right: 20px;
-<<<<<<< HEAD
-
-=======
->>>>>>> sprite
 		    border-top-width: 20px
 	}
 	}
@@ -101,8 +115,9 @@ img {
 
 
 <<<<<<< HEAD
+
 =======
-.logo-header__icon {
+	.logo-header__icon {
 		height: 100px;
 		width: 100px;
 
@@ -110,7 +125,7 @@ img {
 
 
 >>>>>>> sprite
-.logo-header__logo {
+	.logo-header__logo {
 
 		margin-left: auto;
 		margin-right: auto;
@@ -121,7 +136,8 @@ img {
 @media (min-width: 850px){
 
 
-.logo-header__logo {
+>>>>>>> sprite
+	.logo-header__logo {
 		padding-top: 20px
 	}
 	}
@@ -557,3 +573,14 @@ img {
 		padding: 4.5rem 0
 }
 	}
+
+
+.about__text {
+		font-weight: 400;
+	}
+
+
+.testimonials {
+
+	background-color: #6C98B7;
+}
