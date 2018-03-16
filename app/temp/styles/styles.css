@@ -114,18 +114,14 @@ img {
 }
 
 
-<<<<<<< HEAD
-
-=======
-	.logo-header__icon {
+.logo-header__icon {
 		height: 100px;
 		width: 100px;
 
 	}
 
 
->>>>>>> sprite
-	.logo-header__logo {
+.logo-header__logo {
 
 		margin-left: auto;
 		margin-right: auto;
@@ -136,8 +132,7 @@ img {
 @media (min-width: 850px){
 
 
->>>>>>> sprite
-	.logo-header__logo {
+.logo-header__logo {
 		padding-top: 20px
 	}
 	}
@@ -215,7 +210,7 @@ img {
 
 .logo-header__right-container {
 
-	visibility: hidden;
+	 padding-left: 100px;
 	}
 
 
@@ -572,6 +567,11 @@ img {
 .page-section {
 		padding: 4.5rem 0
 }
+	}
+
+
+.page-section__header {
+		padding: 1.2rem 0;
 	}
 
 

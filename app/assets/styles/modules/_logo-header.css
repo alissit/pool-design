@@ -2,15 +2,13 @@
 	width: auto;
 	border: 2px solid #000;
 
-<<<<<<< HEAD
 
-=======
 	&__icon {
 		height: 100px;
 		width: 100px;
 
 	}
->>>>>>> sprite
+
 	&__logo {
 
 		margin-left: auto;
@@ -77,7 +75,7 @@
 
 	&__right-container {
 
-	visibility: hidden;
+	 padding-left: 100px;
 
 		@mixin atMedium{
 			visibility: visible;
