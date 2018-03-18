@@ -28,7 +28,7 @@
 
 
 			@mixin laptop{
-				display: block;
+
 				margin: 30px 60px;
 			}
 
@@ -40,7 +40,7 @@
 
 	p {
 		text-align: center;
-		font-weight: 300;
+		font-weight: 400;
 
 		@mixin laptop {
 			font-weight: 400;

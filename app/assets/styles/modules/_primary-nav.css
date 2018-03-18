@@ -1,6 +1,13 @@
 .primary-nav {
 
-	background-color: #144D75;
+	background-color: transparent;
+	transition: all .1s ease-out;
+
+	@mixin iPad {
+		background-color: #0D253E;
+	}
+
+
 
 
 	ul {
@@ -8,14 +15,21 @@
 		width: 100%;
 		margin: 0;
 		padding: 0;
+
 		@mixin clearfix;
+
 	}
 
 	li {
 		list-style: none;
+		padding-bottom: 45px;
+
+
+		@mixin iPad{
 		display: table-cell;
 		text-align: center;
 		padding: 15px;
+	}
 
 	}
 
@@ -28,13 +42,18 @@
 	}
 
 		a {
-		color: white;
-		text-decoration: none;
-		font-weight: 400;
-		font-size: 1.1rem;
-/*		max-width: 200px;*/
-/*		margin-top: 8px;*/
-		display: block;
-		padding: 5px 12px;
+			color: white;
+			text-decoration:none;
+
+
+
+			@mixin iPad {
+			font-weight: 400;
+			font-size: 1.1rem;
+			display: block;
+			padding: 5px 12px;
+		}
 	}
+
+
 }
