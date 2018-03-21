@@ -1,8 +1,11 @@
 .btn {
 
-		&__large-hero {
-		background-color: #d59541;
-		width: 100px;
+
+
+	&__large-hero {
+		background-color: #4F9BBA;
+		border: 1px solid white;
+		width: 140px;
 		color: white;
 		padding: 5px 5px;
 		margin-left: auto;
@@ -13,21 +16,92 @@
 	}
 
 	&__gallery {
-		background-color: #d59541;
+
+		margin-bottom: 30px;
+		margin-top: 15px;
+		background-color: #4F9BBA;
 		width: 140px;
+		color: white;
+		padding: 12px 9px;
+		margin-left: 20px;
+		border-radius: 7px;
+		text-align: center;
+		content: "";
+		clear: both;
+		display: table;
+
+		@mixin iPad {
+			margin-bottom: 10px;
+		}
+	}
+
+	&__testimonials {
+		margin-bottom: 30px;
+		margin-top: 15px;
+		background-color: #4F9BBA;
+		width: 140px;
+		color: white;
+		padding: 12px 9px;
+		margin-left: 20px;
+		border-radius: 7px;
+		text-align: center;
+		content: "";
+		clear: both;
+		display: table;
+
+		@mixin iPad {
+			margin-bottom: 10px;
+		}
+
+	}
+
+	&__foot-slider {
+		border: 1px solid white;
+		margin-bottom: 30px;
+		margin-top: 22px;
+		background-color: #4F9BBA;
+		width: 200px;
 		color: white;
 		padding: 12px 9px;
 		margin-left: auto;
 		margin-right: auto;
 		border-radius: 7px;
 		text-align: center;
+		content: "";
+		clear: both;
+		display: table;
+	}
 
-		a {
+	&__footer-full {
+
+		display: block;
+		border: 1px solid white;
+		margin-bottom: 30px;
+		margin-top: 22px;
+		background-color: #4F9BBA;
+		width: 250px;
+		color: white;
+		padding: 12px 30px;
+		margin-left: 45px;
+		margin-right: auto;
+		border-radius: 7px;
+		text-align: center;
+
+		@mixin iPad{
+			display: inline;
+		}
+
+
+	}
+
+
+
+	a {
 		color: white;
 		text-decoration: none;
 		font-weight: 300;
 	}
-	}
+	
 
 
 }

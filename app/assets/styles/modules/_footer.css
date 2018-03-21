@@ -1,0 +1,59 @@
+.footer {
+
+	@mixin clearfix;
+	position: relative;
+	background-color: #0D253E;
+	color: white;
+	padding: .5rem;
+	text-align: left;
+
+
+
+	&__header {
+		font-weight: 300;
+		font-size: 1.3rem;
+
+	}
+
+	&__text {
+		
+		margin-top: 5px;
+		margin-bottom: 1rem;
+		font-weight: 200;
+		font-size: 1rem;
+	}
+
+	&__full {
+		clear: both;
+		left: 0px;
+
+		position: absolute;
+		background-color: #05121A;
+		height: auto;
+		width: 100%;
+		font-weight: 200;
+		text-align: center;
+		display: block;
+
+
+	}
+
+	&__left {
+
+	}
+
+	h4 {
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+
+	h4:last-child {
+		margin-bottom: 80px;
+	}
+
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+}

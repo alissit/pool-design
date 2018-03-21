@@ -1,48 +1,62 @@
 .gallery {
 
 
-	margin-left: 60px;
-	margin-right: 60px;
+	background-color: #EBF2F6;
 
-	&__gallery {
-		border: 1px solid #ccc;
 
-		&:hover {
-			border: 1px solid #777;
-		}
+	&__effects {
+		/*border: 1px solid #ccc;*/
+
+
 	}
 
-	&__desc {
-		padding: 15px;
-		text-align: center;
+	img {
+		border: 1px solid black;
 	}
 
-	&__responsive {
+	&__float {
+
 		width: 100%;
+		padding-bottom: 20px;
+
+
+		@mixin iPad{
+		float: left;
+		width: 33%;
 		padding: 4px 8px;
-
-
-    	@mixin iPad {
-		    	padding: 0 6px;
-		    	float: left;
-		    	width: 49.99999%;
-		    }
-
-
-    	@mixin atSmall {
-    		padding: 0 6px;
-    		width: 24.99999%;
-    		margin: 6px 0;
-    		}
-  
 	}
 
-	.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+
+	}
+
+	&__background {
+
+		@mixin clearfix;
+
+	}
+
+
+
+	&__heading {
+		padding-top: 15px;
+		font-size: 1.5rem;
+		font-weight: 300;
+		padding-left: 60px;
+		margin: 0;
+	}
+
+	&__subheading {
+		font-size: 1.3rem;
+		font-weight: 400;
+		padding-left: 60px;
+		margin-top: 8px;
+	}
+
+
+ 	a {
+ 		display: inline-block;
+ 		text-decoration: none;
+
+ 	}
 }
 
-
-
-}

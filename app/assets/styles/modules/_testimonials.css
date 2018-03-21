@@ -1,4 +1,32 @@
 .testimonials {
 
-	background-color: #6C98B7;
+	background-color: white;
+	width: 100%;
+	padding-bottom: 3px;
+
+	@mixin iPad{
+
+	}
+
+	@mixin laptop {
+		padding-bottom: 5px;
+	}
+
+
+	&__review {
+		text-align: center;
+		padding-bottom: 20px;
+
+
+		@mixin iPad {
+			text-align: center;
+			padding-bottom: 20px;
+
+		}
+
+
+
+
+
+	}
 }

@@ -12,6 +12,7 @@
     "jquery": "^3.3.1",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^4.0.1",
+    "lightbox2": "^2.10.0",
     "normalize.css": "^8.0.0",
     "picturefill": "^3.0.2",
     "waypoint": "^0.2.8",

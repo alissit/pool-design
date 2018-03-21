@@ -1,0 +1,21 @@
+.foot-slider {
+	@mixin clearfix;
+	height: 100px;
+	background-color: #4F9BBA;
+
+	&__text {
+		@mixin clearfix;
+		margin-top:35px;
+		color: white;
+		font-weight: 400;
+		font-size: 1.6rem;
+
+
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	@mixin clearfix;
+}
