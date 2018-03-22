@@ -5,7 +5,17 @@
 
 
 	&__effects {
-		/*border: 1px solid #ccc;*/
+		width: 50%;
+		float: left;
+		padding: 5px 12px;
+
+		@mixin iPad {
+			width: 100%;
+		}
+
+		@mixin laptop {
+			padding: 0;
+		}
 
 
 	}
@@ -17,7 +27,7 @@
 	&__float {
 
 		width: 100%;
-		padding-bottom: 20px;
+
 
 
 		@mixin iPad{
@@ -33,23 +43,44 @@
 
 		@mixin clearfix;
 
+		@mixin laptop {
+			margin-top: 45px;
+			margin-bottom: 45px;
+		}
+
 	}
 
 
 
 	&__heading {
-		padding-top: 15px;
+
 		font-size: 1.5rem;
 		font-weight: 300;
-		padding-left: 60px;
-		margin: 0;
+		text-align: center;
+
+
+		@mixin iPad {
+			padding-top: 15px;
+			font-size: 1.5rem;
+			font-weight: 300;
+			text-align: center;
+			margin: 0;
+		}
 	}
 
 	&__subheading {
+		font-size: 1.8rem;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 8px;
+
+
+		@mixin iPad{
 		font-size: 1.3rem;
 		font-weight: 400;
-		padding-left: 60px;
+		text-align: center;
 		margin-top: 8px;
+	}
 	}
 
 

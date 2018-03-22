@@ -6,12 +6,17 @@
 	color: white;
 	padding: .5rem;
 	text-align: left;
+	padding-left: 1.875rem;
+
+	@mixin iPad{
+
+	}
 
 
 
 	&__header {
-		font-weight: 300;
-		font-size: 1.3rem;
+		font-weight: 400;
+		font-size: 1.4rem;
 
 	}
 
@@ -20,7 +25,14 @@
 		margin-top: 5px;
 		margin-bottom: 1rem;
 		font-weight: 200;
-		font-size: 1rem;
+		font-size: 1.3rem;
+
+		&-space {
+			padding-top: 10px;
+			margin-bottom: 1rem;
+			font-weight: 300;
+			font-size: 1.3rem;
+		}
 	}
 
 	&__full {
@@ -35,7 +47,19 @@
 		text-align: center;
 		display: block;
 
+		@mixin iPad{
+			padding: 20px 0 ;
+		}
 
+		p {
+			margin-bottom: 0;
+		}
+
+		&-website {
+			font-size: 200;
+			font-size: .8rem;
+			margin-top: 0;
+		}
 	}
 
 	&__left {

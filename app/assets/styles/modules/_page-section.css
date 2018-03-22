@@ -10,4 +10,8 @@
 	&__header {
 		padding: 1.2rem 0;
 	}
+
+	&__gallery {
+		padding: 1.1rem 0;
+	}
 }
