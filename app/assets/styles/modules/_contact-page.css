@@ -1,0 +1,55 @@
+.contact-page {
+
+
+
+	&__left {
+
+		color: white;
+		background-color: #0D253E;
+
+		@mixin iPad {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+
+		@mixin laptop {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+	}
+
+	&__margin {
+
+		width: 88%;
+		margin-left: auto;
+		margin-right: auto;
+
+		@mixin iPad {
+			width: 100%;
+			margin-bottom: 30px;
+			margin-top: 30px;
+		}
+	}
+
+	&__right {
+		width: 88%;
+		margin-top: 20px;
+		margin-left: 18px;
+
+		@mixin iPad {
+			margin-top: 0;
+			border: 1px solid #0D253E;
+		}
+	}
+
+	&__facebook {
+
+		margin-left: 30px;
+		margin-top: 60px;
+
+		@mixin laptop {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}

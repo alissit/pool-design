@@ -1,0 +1,80 @@
+.text {
+
+
+	&__contact-page {
+
+		&-header {
+			font-weight: 500;
+			font-size: 1.6rem;
+			margin-bottom: 40px;
+			text-align: left;
+			margin-left: 18px;
+
+			@mixin iPad{
+
+			}
+		}
+
+		&-title {
+			font-weight: 400;
+			font-size: 1.3rem;
+			margin-bottom: 40px;
+			margin-left: 18px;
+			padding-top: 30px;
+
+			@mixin iPad {
+				margin-left: 8px;
+			}
+		}
+
+		&-address {
+			margin-top: 5px;
+			margin-bottom: 1rem;
+			font-weight: 200;
+			font-size: 1rem;
+			margin-left: 18px;
+
+			@mixin iPad {
+				margin-left: 8px;
+			}
+
+		}
+		&-email {
+			padding-top: 30px;
+			margin-bottom: 1.8rem;
+			font-weight: 300;
+			font-size: 1rem;
+			word-wrap: normal;
+			margin-left: 18px;
+
+			@mixin iPad {
+				margin-left: 8px;
+			}
+		}
+		&-phone {
+			padding-top: 30px;
+			margin-bottom: 1rem;
+			font-weight: 300;
+			font-size: 1rem;
+			margin-left: 18px;
+
+			@mixin iPad {
+				margin-left: 8px;
+			}
+
+
+		}
+	}
+
+
+	li {
+		list-style: none;
+
+	}
+
+
+	a {
+			text-decoration: none;
+			color: white;
+	}
+}
