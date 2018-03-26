@@ -66,6 +66,8 @@
 		}
 	}
 
+
+
 	&-6__right {
 		width: 100%;
 
@@ -87,11 +89,12 @@
 			width: 50%;
 			padding-right: 60px;
 		    border-top-width: 20px;
+
 		}
 
 		@mixin iPad {
 			margin-bottom: 30px;
-						float: left;
+			float: left;
 			width: 50%;
 		}
 

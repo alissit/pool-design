@@ -50,26 +50,19 @@
 	<nav class="primary-nav">
 		<div class="wrapper">
 			<div class="site-header__menu-icon-blue">
-			<div class="site-header__menu-icon">
-				<div class="site-header__menu-icon__middle"></div>
+				<div class="site-header__menu-icon">
+					<div class="site-header__menu-icon__middle"></div>
+				</div>
 			</div>
-		</div>
 
 				<div class="site-header__menu-content">
 					<ul>
-			        <li><a href="index.html" id="home-link">Home</a></li>
-				        <div class="site-header__dropdown">
-					        <li class="site-header__dropbtn"><a href="#services" id="services-link">Services</a></li>
-								  <div class="site-header__dropdown-content">
-								    <li><a href="#">Link 1</a></li>
-								    <li><a href="#">Link 2</a></li>
-								    <li><a href="#">Link 3</a></li>
-								  </div>
-						</div>
-			        <li><a href="#gallery" id="gallery-link">Gallery</a></li>
-			        <li><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
-			        <li><a href="contact.html" id="contact-link">Contact</a></li>
-			      </ul>
+				        <li><a href="index.html" id="home-link">Home</a></li>
+						<li class="#""><a href="maintenance.html" id="services-link">Services</a></li>
+				        <li><a href="gallery.html" id="gallery-link">Gallery</a></li>
+				        <li><a href="index.html#testimonials" id="testimonials-link">Testimonials</a></li>
+				        <li><a href="contact.html" id="contact-link">Contact</a></li>
+			     	 </ul>
 			    </div>
 	  	</div>
 	</nav>
@@ -104,19 +97,19 @@
 <div class="icons wrapper page-section">
 	
 		<div class="icons-container">
-    			<a class="icons__icon" title="Pool Maintenance" target="_blank" href="maintenance.html"><img class="icons__image" src="/assets/images/icons/005-person.svg"></a>
+    			<a class="icons__icon" title="Pool Maintenance" target="_blank" href="maintenance.html#swimming"><img class="icons__image" src="/assets/images/icons/005-person.svg"></a>
     			<p>Pool Maintenance</p>
     	</div>
 		<div class="icons-container">
-				<a class="icons__icon" title="Equipment Repair" target="_blank" href="#"><img class="icons__image" src="/assets/images/icons/003-construction.svg"></a>
+				<a class="icons__icon" title="Equipment Repair" target="_blank" href="maintenance.html#repair"><img class="icons__image" src="/assets/images/icons/003-construction.svg"></a>
 				<p>Equipment Repair</p>
 		</div>
 		<div class="icons-container">
-				<a class="icons__icon" title="Hot Tub Servicing" target="_blank" href="maintenance.html"><img class="icons__image" src="/assets/images/icons/004-summer.svg"></a>
+				<a class="icons__icon" title="Hot Tub Servicing" target="_blank" href="maintenance.html#huttub"><img class="icons__image" src="/assets/images/icons/004-summer.svg"></a>
 				<p>Hot Tub Servicing</p>
 		</div>
 		<div class="icons-container">
-				<a class="icons__icon" title="Ozone & Salt systems" target="_blank" href="#"><img class="icons__image" src="/assets/images/icons/002-shape.svg"></a>
+				<a class="icons__icon" title="Ozone & Salt systems" target="_blank" href="maintenance.html#ozone"><img class="icons__image" src="/assets/images/icons/002-shape.svg"></a>
 				<p>Ozone & Salt Systems</p>
 		</div>
 	
@@ -199,11 +192,11 @@
 				</div>
 
 				<div class="btn btn__gallery">
-				   <a href="#" class="btn">View Full Gallery</a>
+				   <a href="gallery.html" class="btn">View Full Gallery</a>
 				</div>
 		</div>
 				<div class="row row-6__left">
-					<div class="testimonials" id="testimonials-link">
+					<div class="testimonials" id="testimonials">
 						<h2 class="gallery__heading">Testimonials</h2>
 						<h4 class="gallery__subheading">What our clients say ...</h4>
 							<div class="testimonials__background">
@@ -240,11 +233,11 @@
 				<h2 class="footer__header">Quick Links</h2>
 				<h4 class="footer__text"><a href="index.html">Home</a></h4>
 				<h4 class="footer__text"><a href="maintenance.html">Swimming Pool Maintenance</a></h4>
-				<h4 class="footer__text"><a href="maintenance.html">Hot Tub Maintenance</a></h4>
-				<h4 class="footer__text">Equipment Repair</h4>
-				<h4 class="footer__text">Ozone & Salt Systems</h4>
-				<h4 class="footer__text">Gallery</h4>
-				<h4 class="footer__text">Testimonials</h4>
+				<h4 class="footer__text"><a href="maintenance.html#hottub" id="hottub-link">Hot Tub Maintenance</a></h4>
+				<h4 class="footer__text"><a href="maintenance.html#repair" id="repair-link">Equipment Repair</h4>
+				<h4 class="footer__text"><a href="maintenance.html#ozone" id="ozone-link">Ozone & Salt Systems</h4>
+				<h4 class="footer__text"><a href="gallery.html">Gallery</a></h4>
+				<h4 class="footer__text"><a href="index.html#testimonials">Testimonials</h4>
 				<h4 class="footer__text"><a href="contact.html">Contact Us<a></h4>
 			</div>
 
@@ -262,16 +255,16 @@
 		</div>
 		<div class="footer__full">
 			<div class="wrapper">
-	          	<p><span class="site-footer__text">Copyright &copy; 2018 Beemer Pool & Spa. All rights reserved. </span><a href="#" class="btn btn__footer-full"> Get in Touch</a></p>
+	          	<p><span class="site-footer__text">Copyright &copy; 2018 Beemer Pool & Spa. All rights reserved. </span><a href="contact.html" class="btn btn__footer-full"> Get in Touch</a></p>
 	          	<p class="footer__full-website">Website by Alissa Eggleston</p>
 	    	</div>
 		</div>
 	</div>
 </div>
 
-<script async defer
+<!-- <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfDXK7tRe0dkSIN8jGpVIT9OjUYMV18lI&callback=initMap">
-</script>
+</script> -->
  <script type="text/javascript" src="temp/scripts/App.js"></script>	
 </body>
 </html>

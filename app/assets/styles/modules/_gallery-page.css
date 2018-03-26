@@ -1,0 +1,122 @@
+.gallery-page {
+
+		margin-top: 60px;
+		background-color: #EBF2F6;
+		padding-bottom: 40px;
+
+	&__effects {
+		width: 50%;
+		float: left;
+		padding: 5px 12px;
+
+		@mixin iPad {
+			width: 100%;
+		}
+
+		@mixin laptop {
+			padding: 0;
+		}
+
+
+	}
+
+	img {
+		border: 1px solid black;
+	}
+
+	&__float {
+
+		width: 100%;
+
+
+
+		@mixin iPad{
+		float: left;
+		width: 33.33333%;
+		padding: 4px 8px;
+	}
+
+
+	}
+
+	&__background {
+
+		@mixin clearfix;
+
+		@mixin laptop {
+			margin-top: 45px;
+			margin-bottom: 45px;
+		}
+
+	}
+
+
+
+	&__heading {
+
+		font-size: 1.5rem;
+		font-weight: 400;
+		text-align: center;
+
+
+		@mixin iPad {
+			padding-top: 60px;
+			font-size: 1.6rem;
+			font-weight: 500;
+			text-align: center;
+			margin: 0;
+		}
+	}
+
+
+
+ 	a {
+ 		display: inline-block;
+ 		text-decoration: none;
+
+ 	}
+
+ 	&__problemsolving {
+ 		padding-top: 60px;
+ 		clear: left;
+ 		width: 800px;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		padding-bottom: 40px;
+
+ 		&-float {
+
+ 			float: left;
+ 			width: 20%;
+ 			padding: 2px 4px;
+ 		}
+
+ 		&-effects {
+
+ 		}
+
+ 		&-title {
+
+ 			text-align: center;
+ 			font-weight: 400;
+ 			font-size: 1.5rem;
+
+ 			@mixin iPad {
+				padding-top: 60px;
+				font-size: 1.6rem;
+				font-weight: 500;
+				text-align: center;
+				margin: 0;
+		}
+
+ 		}
+
+ 		&-subtitle {
+ 			text-align: center;
+ 			font-weight: 300;
+ 			font-size: 1.1rem;
+
+ 		}
+ 	}
+
+}

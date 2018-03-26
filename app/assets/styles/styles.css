@@ -20,4 +20,6 @@
 @import "./modules/_text";
 @import "./modules/_map-section";
 @import "./modules/_map";
+@import "./modules/_maintenance";
+@import "./modules/_gallery-page";
 @import "../../../node_modules/lightbox2/dist/css/lightbox.min";

@@ -1,0 +1,58 @@
+.maintenance {
+
+
+	margin-top: 60px;
+	font-weight: 300;
+
+
+	&-right {
+		margin-top: 30px;
+		padding-bottom: 40px;
+		color: black;
+		border: 1px solid #0D253E;
+		font-weight: 400;
+
+		@mixin iPad {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+		@mixin laptop {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+
+		a {
+			color: black;
+		}
+	}
+
+	&-header {
+		height: 100px;
+		background-color: #4F9BBA;
+
+		&__title {
+			margin-left: 20px;
+			color: white;
+			font-weight: 500;
+			font-size: 1.8rem;
+			padding-top: 30px;
+		}
+	}
+	h4 {
+		font-weight: 400;
+		font-size: 1.1rem;
+	}
+
+	&__left-row {
+		 padding-top: 20px;
+	}
+	 &__right-row {
+
+	 	@mixin laptop {
+	 		margin-top: 40px;
+	 	}
+
+	 }
+
+
+}
