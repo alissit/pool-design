@@ -1,8 +1,13 @@
 .gallery-page {
 
-		margin-top: 60px;
+		margin-top: 20px;
+		padding-top: 40px;
 		background-color: #EBF2F6;
 		padding-bottom: 40px;
+
+		@mixin iPhone {
+		margin-top: 60px;
+	}
 
 	&__effects {
 		width: 50%;
@@ -77,18 +82,47 @@
  	}
 
  	&__problemsolving {
+
  		padding-top: 60px;
- 		clear: left;
- 		width: 800px;
  		margin-left: auto;
  		margin-right: auto;
  		padding-bottom: 40px;
 
+
+ 		@mixin iPad {
+ 		padding-top: 60px;
+ 		clear: both;
+ 		width: 600px;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		padding-bottom: 40px;
+ 	}
+
+ 		@mixin laptop {
+ 			width: 800px;
+ 		}
+
+ 		&-wrapper {
+ 			margin-left: auto;
+ 			margin-right: auto;
+ 		}
+
  		&-float {
+ 			float: left;
+ 			width: 33.3333%;
+ 			padding: 2px 4px;
+
+ 			@mixin iPad {
 
  			float: left;
  			width: 20%;
  			padding: 2px 4px;
+ 		}
+
+ 			@mixin laptop {
+ 				width: 20%;
+
+ 			}
  		}
 
  		&-effects {
@@ -96,7 +130,8 @@
  		}
 
  		&-title {
-
+ 			clear: left;
+ 			padding-top: 40px;
  			text-align: center;
  			font-weight: 400;
  			font-size: 1.5rem;

@@ -1300,6 +1300,7 @@ img {
 
 
 .btn__foot-slider {
+			margin-top: 70px;
 			margin-bottom: 0px
 	}
 	}
@@ -1956,11 +1957,22 @@ img {
 
 .gallery-page {
 
-		margin-top: 60px;
+		margin-top: 20px;
+		padding-top: 40px;
 		background-color: #EBF2F6;
 		padding-bottom: 40px;
 
 }
+
+
+@media (min-width: 414px){
+
+
+.gallery-page {
+		margin-top: 60px
+
+}
+	}
 
 
 .gallery-page__effects {
@@ -2067,21 +2079,69 @@ img {
 
 
 .gallery-page__problemsolving {
+
  		padding-top: 60px;
- 		clear: left;
- 		width: 800px;
  		margin-left: auto;
  		margin-right: auto;
  		padding-bottom: 40px;
  	}
 
 
+@media (min-width: 768px){
+
+
+.gallery-page__problemsolving {
+ 		padding-top: 60px;
+ 		clear: both;
+ 		width: 600px;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		padding-bottom: 40px
+ 	}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.gallery-page__problemsolving {
+ 			width: 800px
+ 	}
+	}
+
+
+.gallery-page__problemsolving-wrapper {
+ 			margin-left: auto;
+ 			margin-right: auto;
+ 		}
+
+
+.gallery-page__problemsolving-float {
+ 			float: left;
+ 			width: 33.3333%;
+ 			padding: 2px 4px;
+ 		}
+
+
+@media (min-width: 768px){
+
+
 .gallery-page__problemsolving-float {
 
  			float: left;
  			width: 20%;
- 			padding: 2px 4px;
+ 			padding: 2px 4px
  		}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.gallery-page__problemsolving-float {
+ 				width: 20%
+ 		}
+	}
 
 
 .gallery-page__problemsolving-effects {
@@ -2090,7 +2150,8 @@ img {
 
 
 .gallery-page__problemsolving-title {
-
+ 			clear: left;
+ 			padding-top: 40px;
  			text-align: center;
  			font-weight: 400;
  			font-size: 1.5rem;

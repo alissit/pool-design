@@ -1,5 +1,4 @@
 .footer {
-
 	@mixin clearfix;
 	position: relative;
 	background-color: #0D253E;

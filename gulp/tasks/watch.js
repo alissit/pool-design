@@ -12,7 +12,8 @@ gulp.task("watch", function(){
 			}
 		});
 
-		watch("./app/*.html", function(){
+		watch("./app/content/*.html", function(){
+			gulp.start("headerfooter")
 			console.log("watching html")
 			browserSync.reload();
 		});
