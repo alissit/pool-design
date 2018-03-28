@@ -17,7 +17,7 @@
 			padding: 20px 20px;
 		}
 
-		.flexbox &__flexdirection-iPad {
+		&__flexdirection-iPad {
 			display: none;
 		
 			@mixin laptop {
@@ -146,6 +146,12 @@
 		&-9{
 		width: 100%;
 
+		@mixin iPad {
+			float:left;
+			width: 75%;
+			padding: 20px 20px;
+		}
+
 		@mixin laptop {
 		float: left;
 		width: 75%;
@@ -155,7 +161,7 @@
 	}
 /*Equal hieghts rules*/
 
-	.flexbox &--equal-height-at-iPad{
+	&--equal-height-at-iPad{
 
 		@mixin iPad{
 			display: flex;

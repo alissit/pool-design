@@ -48,7 +48,7 @@ img {
 	}
 
 
-.flexbox .row-3__flexdirection-iPad {
+.row-3__flexdirection-iPad {
 			display: none;
 		}
 
@@ -56,7 +56,7 @@ img {
 @media (min-width: 1024px){
 
 
-.flexbox .row-3__flexdirection-iPad {
+.row-3__flexdirection-iPad {
 				display: inline-flex;
 				flex-direction: column
 		}
@@ -247,6 +247,17 @@ img {
 	}
 
 
+@media (min-width: 768px){
+
+
+.row-9{
+			float:left;
+			width: 75%;
+			padding: 20px 20px
+	}
+	}
+
+
 @media (min-width: 1024px){
 
 
@@ -264,7 +275,7 @@ img {
 @media (min-width: 768px){
 
 
-.flexbox .row--equal-height-at-iPad{
+.row--equal-height-at-iPad{
 			display: flex
 
 	}
