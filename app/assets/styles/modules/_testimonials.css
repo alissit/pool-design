@@ -7,7 +7,7 @@
 	background-color: white;
 
 	@mixin iPhone{
-		width: 94%;
+/*		width: 94%;*/
 	}
 
 	@mixin iPad{

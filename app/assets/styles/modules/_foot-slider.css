@@ -17,19 +17,21 @@
 		margin-top: 0px;
 		color: white;
 		font-weight: 400;
-		font-size: 1.6rem;
+		font-size: 1.25rem;
+		width: 250px;
+    	margin-left: auto;
+    	margin-right: auto;
 
 		@mixin iPhone{
 			width: 60%;
-			margin-left: auto;
-			margin-right: auto;
+
 
 		}
 
 		@mixin iPad {
 			width: 55%;
 			margin-top: 35px;
-			font-size: 1.9rem;
+			font-size: 1.3rem;
 		}
 
 		@mixin laptop {

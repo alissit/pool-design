@@ -3,7 +3,7 @@
 
 	background-color: #EBF2F6;
 
-
+/*
 	&__effects {
 		width: 50%;
 		float: left;
@@ -18,7 +18,7 @@
 		}
 
 
-	}
+	}*/
 
 	img {
 		border: 1px solid black;
@@ -27,6 +27,7 @@
 	&__float {
 
 		width: 100%;
+		padding: 5px 12px;
 
 
 

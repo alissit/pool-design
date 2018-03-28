@@ -22,4 +22,5 @@
 @import "./modules/_map";
 @import "./modules/_maintenance";
 @import "./modules/_gallery-page";
+@import "./modules/_reveal-item";
 @import "../../../node_modules/lightbox2/dist/css/lightbox.min";
