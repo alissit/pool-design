@@ -17,10 +17,12 @@
 			padding: 20px 20px;
 		}
 
-		&__flexdirection-iPad {
-
-			@mixin iPad {
-			flex-direction: column;
+		.flexbox &__flexdirection-iPad {
+			display: none;
+		
+			@mixin laptop {
+				display: inline-flex;
+				flex-direction: column;
 		}
 		}
 	}
@@ -78,6 +80,13 @@
 		    border-top-width: 20px;
 		}
 
+		@mixin iPad {
+			margin-bottom: 30px;
+			float: left;
+			width: 50%;
+			padding-left: 10px;
+		}
+
 	}
 
 	&-6__left  {
@@ -96,11 +105,27 @@
 			margin-bottom: 30px;
 			float: left;
 			width: 50%;
+			padding-left: 12px;
+			padding-right: 12px;
 		}
 
 		@mixin laptop {
 			padding-right: 10px;
-			padding-left: 10px;
+			padding-left: 12px;
+
+		}
+		&-testimonial {
+		width: 100%;
+
+
+
+		@mixin iPad {
+			margin-bottom: 30px;
+			float: left;
+			width: 50%;
+
+		}
+
 		}
 
 	}
@@ -121,7 +146,7 @@
 		&-9{
 		width: 100%;
 
-		@mixin iPad {
+		@mixin laptop {
 		float: left;
 		width: 75%;
 		padding: 20px 20px;
@@ -130,7 +155,7 @@
 	}
 /*Equal hieghts rules*/
 
-	&--equal-height-at-iPad{
+	.flexbox &--equal-height-at-iPad{
 
 		@mixin iPad{
 			display: flex;

@@ -48,11 +48,17 @@ img {
 	}
 
 
-@media (min-width: 768px){
+.row-3__flexdirection-iPad {
+			display: none;
+		}
+
+
+@media (min-width: 1024px){
 
 
 .row-3__flexdirection-iPad {
-			flex-direction: column
+				display: inline-flex;
+				flex-direction: column
 		}
 	}
 
@@ -141,6 +147,19 @@ img {
 	}
 
 
+@media (min-width: 768px){
+
+
+.row-6__right {
+			margin-bottom: 30px;
+			float: left;
+			width: 50%;
+			padding-left: 10px
+
+	}
+	}
+
+
 .row-6__left  {
 		width: 100%;
 
@@ -167,7 +186,9 @@ img {
 .row-6__left  {
 			margin-bottom: 30px;
 			float: left;
-			width: 50%
+			width: 50%;
+			padding-left: 12px;
+			padding-right: 12px
 
 	}
 	}
@@ -178,9 +199,27 @@ img {
 
 .row-6__left  {
 			padding-right: 10px;
-			padding-left: 10px
+			padding-left: 12px
 
 	}
+	}
+
+
+.row-6__left-testimonial {
+		width: 100%;
+
+		}
+
+
+@media (min-width: 768px){
+
+
+.row-6__left-testimonial {
+			margin-bottom: 30px;
+			float: left;
+			width: 50%
+
+		}
 	}
 
 
@@ -208,7 +247,7 @@ img {
 	}
 
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
 
 
 .row-9{
@@ -1621,7 +1660,17 @@ img {
 
 
 .contact-page__right {
-			margin-top: 0;
+			width: 100%;
+			margin-top: 0
+	}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.contact-page__right {
+		
 			border: 1px solid #0D253E
 	}
 	}
@@ -1866,14 +1915,23 @@ img {
 	}
 
 
+@media (min-width: 1024px){
+
+
 .maintenance {
-
-
-	margin-top: 60px;
-	font-weight: 300;
+	margin-top: 60px
 
 
 }
+	}
+
+
+.maintenance__wrapper {
+		margin-left: 12px;
+		margin-right: 12px;
+
+
+	}
 
 
 .maintenance-right {
@@ -1881,7 +1939,7 @@ img {
 		padding-bottom: 40px;
 		color: black;
 		border: 1px solid #0D253E;
-		font-weight: 400;
+		font-weight: 300;
 	}
 
 
@@ -1911,23 +1969,67 @@ img {
 
 
 .maintenance-header {
-		height: 100px;
+		text-align: center;
 		background-color: #4F9BBA;
+	}
+
+
+@media (min-width: 768px){
+
+
+.maintenance-header {
+			padding-top: 40px
+	}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.maintenance-header {
+			padding-top: 10px
+	}
 	}
 
 
 .maintenance-header__title {
 			margin-left: 20px;
 			color: white;
-			font-weight: 500;
+			font-weight: 400;
 			font-size: 1.8rem;
 			padding-top: 30px;
 		}
 
 
-.maintenance h4 {
+.maintenance h2 {
 		font-weight: 400;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+
+
+@media (min-width: 1024px){
+
+
+.maintenance h2 {
+			text-align: left;
+			font-size: 1.3rem
+	}
+	}
+
+
+.maintenance h4 {
+		font-weight: 300;
 		font-size: 1.1rem;
+	}
+
+
+@media (min-width: 1024px){
+
+
+.maintenance h4 {
+			font-size: 1.2rem
+	}
 	}
 
 
@@ -1940,8 +2042,17 @@ img {
 
 
 .maintenance__right-row {
-	 		margin-top: 40px
+	 		/*margin-top: 40px;*/
 
+	 }
+	}
+
+
+@media (min-width: 1024px){
+
+
+.maintenance__bottom-row {
+	 		width: 100%
 	 }
 	}
 

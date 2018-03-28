@@ -8,4 +8,4 @@ import Lightbox2 from "../../../node_modules/lightbox2/dist/js/lightbox";
 
 var mobileMenu = new MobileMenu();
 new RevealOnScroll($(".icons"), "60%");
-new RevealOnScroll($(".foot-slidera"), "60%");
+new RevealOnScroll($(".foot-slidera"), "85%");
