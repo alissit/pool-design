@@ -837,6 +837,18 @@ img {
 	}
 
 
+@media (min-width: 768px){
+
+
+.icons p {
+			width: 150px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 40px
+	}
+	}
+
+
 @media (min-width: 1024px){
 
 
