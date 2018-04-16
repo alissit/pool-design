@@ -795,6 +795,22 @@ img {
 	}
 
 
+.icons-paragraph {
+			color: blue;
+
+		}
+
+
+@media (min-width: 768px){
+
+
+.icons-paragraph {
+					display: inline-block
+
+		}
+	}
+
+
 .icons__image {/*.icon*/
 
 				height: 60px;

@@ -13,6 +13,15 @@
 				}
 
 			}
+		&-paragraph {
+			color: blue;
+
+			@mixin iPad{
+					display: inline-block;
+
+				}
+
+		}
 
 		&__image {/*.icon*/
 
