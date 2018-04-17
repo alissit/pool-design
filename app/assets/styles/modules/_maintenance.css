@@ -46,6 +46,7 @@
 		}
 
 		&__title {
+			margin-top: 0;
 			margin-left: 20px;
 			color: white;
 			font-weight: 400;
