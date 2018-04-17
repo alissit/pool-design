@@ -10,6 +10,7 @@
 		  <meta name="keywords" content="Pool and Spa Maintenance, cleaning, products, vancouver, Tri-City">
 		  <meta name="description" content="Pool and Span Maintenance"> 
 		  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png"/>
+		  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 <!-- build:css assets/styles/styles.css -->
 		  <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
@@ -51,26 +52,36 @@
 		</header>
 
 
-		<div class="site-header">
-			<nav class="primary-nav">
+		<div class="navbar">
 				<div class="wrapper">
-					<div class="site-header__menu-icon-blue">
-						<div class="site-header__menu-icon">
-							<div class="site-header__menu-icon__middle"></div>
+					<div class="navbar__menu-icon-blue">
+						<div class="navbar__menu-icon">
+							<div class="navbar__menu-icon__middle"></div>
 						</div>
 					</div>
 
-						<div class="site-header__menu-content">
-							<ul>
-						        <li><a href="index.html" id="home-link">Home</a></li>
-								<li><a href="maintenance.html" id="services-link">Services</a></li>
-						        <li><a href="gallery.html" id="gallery-link">Gallery</a></li>
-						        <li><a href="index.html#testimonials" id="testimonials-link">Testimonials</a></li>
-						        <li><a href="contact.html" id="contact-link">Contact</a></li>
-					     	 </ul>
+						<div class="navbar navbar__menu-content">
+						
+						        <a href="index.html" id="home-link">Home</a>
+							        <div class="drop__dropdown">
+							        	<button class="drop__dropbtn dropbtn">
+							        		Services  <i class="fas fa-caret-down"></i>
+							        	</button>
+	  									<div class="drop__dropdown-content dropdown-content">
+	    										<a href="#">Pool Maintenance</a>
+											    <a href="#">Hot Tub Maintenance</a>
+											    <a href="#">Repairs</a>
+											    <a href="#">Winterisation</a>
+											    <a href="#">Spring Openings</a>
+											    <a href="#">UV & Salt Pools</a>
+	 									</div>
+									</div>
+						        <a href="gallery.html" id="gallery-link">Gallery</a>
+						        <a href="index.html#testimonials" id="testimonials-link">Testimonials</a>
+						        <a href="blog.html" id="blog-link">Blog</a>
+						        <a href="contact.html" id="contact-link">Contact</a>
 					    </div>
 			  	</div>
-			</nav>
 		</div>
 
 
@@ -86,7 +97,8 @@
       	<img srcset="assets/images/summer-water-mobile.jpg 530w" alt="Large swimming pool" class="large-hero__image">
     </picture>
 
-    	<div class="row row-6__right">
+    <div>
+    	<div class="row row-9__large-hero">
 			<div class="large-hero__text-content">
 				<h1 class="large-hero__title">Transform your pool</h1>
 				<h4 class="large-hero__description">We have earned a well-respected reputation for the consistent quality and services that we offer.  As one of the most dedicated swimming pool renovation and repair companies, our commitment to quality and customer service is unsurpassed.</h4>
@@ -96,41 +108,33 @@
 		        </div>
 			</div>
 		</div>
-
+	</div>
 </div>
+
+		
+
+
 
 <div class="icons wrapper page-section reveal-item">
 	
 		<div class="icons-container">
     			<a class="icons__icon" title="Pool Maintenance" target="_blank" href="maintenance.html#swimming"><img class="icons__image" src="assets/images/icons/005-person.svg"></a>
-    		
-    		<div class="icons-paragraph">
-    			<p>Pool & Hot Tub Maintenance</p>
-    		</div>
+    			<p>Maintenance</p>
     		</div>
     	
 		<div class="icons-container">
 				<a class="icons__icon" title="Equipment Repair" target="_blank" href="maintenance.html#repair"><img class="icons__image" src="assets/images/icons/003-construction.svg"></a>
-			
-			<div class="icons-paragraph">
-				<p>Equipment Repair</p>
-			</div>
+				<p>Equipment</p>
 			</div>
 		
 		<div class="icons-container">
 				<a class="icons__icon" title="Winterisation" target="_blank" href="winter.html#winter"><img class="icons__image" src="assets/images/icons/004-summer.svg"></a>
-			
-			<div class="icons-paragraph">
-				<p>Winterisation & Spring Opening</p>
-			</div>
+				<p>Winterisation</p>
 			</div>
 
 		<div class="icons-container">
 				<a class="icons__icon" title="Salt & UV systems" target="_blank" href="maintenance.html#ozone"><img class="icons__image" src="assets/images/icons/002-shape.svg"></a>
-			
-			<div class="icons-paragraph">
-				<p>Salt & UV Systems</p>
-			</div>
+				<p>Spring Opening</p>
 			</div>
 	
 </div>

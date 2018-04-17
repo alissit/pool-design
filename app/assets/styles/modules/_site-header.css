@@ -6,6 +6,12 @@
 		z-index: 2;
 	
 
+	&__no-padded{
+		padding-bottom: 0px;
+		color: orange;
+	}
+
+
 
 
 
@@ -126,6 +132,10 @@
 
 		}
 	}
+
+
+
+
 
 
 }

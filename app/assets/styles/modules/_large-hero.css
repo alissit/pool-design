@@ -1,7 +1,7 @@
 .large-hero {
 
 	border-bottom: 10px solid #0D253E;
-	position: relative;
+	/*position: relative;*/
 
 
 	a {
@@ -13,6 +13,7 @@
 
 		display: block;
 	}
+
 	&__title{
 		font-size: 1.5rem;
 		font-weight: 300;
@@ -45,6 +46,10 @@
 	}
 
 	&__text-content {
+
+		display:none;
+		
+		@mixin laptop{
 		position: absolute;
 		top: 40px;
 		margin-left: 15px;
@@ -53,6 +58,8 @@
 		color: #EFF5F8;
 		text-align: center;
 		border-radius: 8px;
+	}
+
 
 
 
@@ -87,13 +94,13 @@
 		}
 
 		@mixin laptop {
-    		top: 150px;
+    		top: 375px;
     		font-size: 1.1rem;
 
 		}
 
 		@mixin atLarge {
-			top: 250px;
+			top: 375px;
 		}
 
 	}

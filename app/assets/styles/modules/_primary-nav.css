@@ -2,14 +2,16 @@
 
 	background-color: transparent;
 	transition: all .1s ease-out;
+	
 
 	@mixin iPad {
 		background-color: #0D253E;
+		overflow: hidden;
 	}
 
 
 
-
+/*
 	ul {
 		display: table;
 		width: 100%;
@@ -39,21 +41,23 @@
 		@mixin atMedium {
 			padding-right: 20px;
 		}
-	}
+	}*/
 
 		a {
-			color: white;
-			text-decoration:none;
+		    float: left;
+		    font-size: 1rem;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
 
 
 
-			@mixin iPad {
+/*			@mixin iPad {
 			font-weight: 400;
 			font-size: 1.1rem;
-			display: block;
 			padding: 5px 12px;
-		}
+		}*/
 	}
-
 
 }

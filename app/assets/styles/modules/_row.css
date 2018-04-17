@@ -130,6 +130,8 @@
 
 	}
 
+
+
 		&-8{
 		width: 100%;
 
@@ -165,6 +167,21 @@
 
 		@mixin iPad{
 			display: flex;
+		}
+
+	}
+
+	/*Large Hero measurements*/
+
+	&-9__large-hero {
+		display: none;
+
+		@mixin laptop {
+			float: right;
+			width: 70%;
+			padding-left: 12px;
+			padding-right: 12px;
+
 		}
 
 	}
