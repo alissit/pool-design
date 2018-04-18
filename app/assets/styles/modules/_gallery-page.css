@@ -1,48 +1,53 @@
 .gallery-page {
 
-		margin-top: 20px;
-		padding-top: 40px;
+
 		background-color: #EBF2F6;
 		padding-bottom: 40px;
 
-		@mixin iPhone {
-		margin-top: 60px;
+	blockquote {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	img {
+		border: 1px solid black;
+		height: 156px;
+		width: 100%;
+
+		@mixin iPad {
+		width: 100%;
+		height: 125px;
 	}
 
-	&__effects {
+	}
+
+
+	&__float {
+
 		width: 50%;
 		float: left;
 		padding: 5px 12px;
 
-		@mixin iPad {
-			width: 100%;
-		}
 
-		@mixin laptop {
-			padding: 0;
+			@mixin iPad{
+			float: left;
+			width: 25%;
+			padding: 4px 8px;
 		}
-
 
 	}
 
-	img {
-		border: 1px solid black;
-	}
-
-	&__float {
+	&__float4 {
 
 		width: 100%;
 
-
-
-		@mixin iPad{
-		float: left;
-		width: 33.33333%;
-		padding: 4px 8px;
+			@mixin iPad{
+			float: left;
+			width: 50%;
+			padding: 4px 8px;
+		}
 	}
 
 
-	}
 
 	&__background {
 
@@ -59,16 +64,20 @@
 
 	&__heading {
 
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		font-weight: 400;
-		text-align: center;
+		text-align: left;
+		margin-top: 0;
+		padding-bottom: 40px;
+		padding-left: 20px;
+		padding-top: 30px;
+		color: #0D253E;
 
 
 		@mixin iPad {
 			padding-top: 60px;
-			font-size: 1.6rem;
+			font-size: 2rem;
 			font-weight: 500;
-			text-align: center;
 			margin: 0;
 		}
 	}
@@ -151,6 +160,57 @@
  			font-weight: 300;
  			font-size: 1.1rem;
 
+ 		}
+ 	}
+
+ 	&__quick {
+ 		
+ 		display: none;
+
+ 		@mixin iPad {
+ 			display: block;
+	 		text-align: left;
+	 		background-color: white;
+	 		border: 1px solid black;
+	 		padding-left: 10px;
+	 		padding-right: 10px;
+	 		font-weight: 300;
+	 		font-size: 1rem;
+ 		}
+
+ 		@mixin laptop {
+ 			display: block;
+	 		text-align: left;
+	 		background-color: white;
+	 		border: 1px solid black;
+	 		padding-left: 20px;
+	 		font-weight: 300;
+	 		font-size: 1rem;
+ 		}
+
+ 		a {
+ 			color: black;
+ 			font-weight: 300;
+ 		}
+
+ 		&-header {
+ 			font-size: 1.2rem;
+ 			font-weight: 400;
+
+ 		}
+ 	}
+
+ 	&__testimonial {
+ 		border: 1px solid black;
+ 		background-color: white;
+ 		margin-top: 20px;
+
+ 		p {
+ 			font-style: italic;
+ 		}
+
+ 		a {
+ 			font-weight: 400;
  		}
  	}
 

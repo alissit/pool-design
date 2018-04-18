@@ -82,23 +82,9 @@
 		    }
 	}
 
-/*	&__dropdown:hover &__dropdown-content {
-			position: unset;
-    		display: block;
-    		background: black;
-		    width: 300px;
-		    margin-left: auto;
-		    margin-right: auto;
-		    text-align: center;
+	&__dropdown-content a:hover {
 
-		    @mixin iPad {
-			    display: block;
-			    position: absolute;
-			    background-color: #0D253E;
-			    max-width: 160px;
-			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			    z-index: 1;
-		    }
-	}*/
+		background-color: rgba(26, 75, 124, .85)
+	}
 
 }
