@@ -4,6 +4,10 @@
 		background-color: #EBF2F6;
 		padding-bottom: 40px;
 
+		h2 {
+			text-align: center;
+		}
+
 	blockquote {
 		margin-left: 10px;
 		margin-right: 10px;

@@ -597,7 +597,7 @@ img {
 
 .wrapper {
 	clear:both;
-	max-width: 500px;
+	max-width: 375px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -2460,6 +2460,11 @@ img {
 }
 
 
+.gallery-page h2 {
+			text-align: center;
+		}
+
+
 .gallery-page blockquote {
 		margin-left: 10px;
 		margin-right: 10px;
@@ -2741,6 +2746,113 @@ img {
 .gallery-page__testimonial a {
  			font-weight: 400;
  		}
+
+
+.blog__post {
+ 			 margin-bottom: 20px;
+		}
+
+
+.blog__date {
+			color: #3498db;
+			text-transform: uppercase;
+			letter-spacing: .2rem;
+	}
+
+
+.blog__header {
+		text-align: left;
+		font-size: 1.1rem;
+		font-weight: 400;
+	}
+
+
+.blog h2 {
+			font-weight: 300;
+			color: #2c3e50;
+			text-transform: capitalize;
+			font-size: 2rem;
+
+	}
+
+
+.blog .indent {
+
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+
+	}
+
+
+.blog hr {
+
+	  height: 1px; 
+
+	}
+
+
+.blog__gallery {
+		
+		
+		padding-bottom: 5px;
+
+	}
+
+
+.blog__gallery::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+
+.blog__float {
+
+		width: 50%;
+		float: left;
+		padding: 5px 12px;
+		overflow: hidden;
+		max-height: 121.8px;
+
+	}
+
+
+@media (min-width: 768px){
+
+
+.blog__float {
+			float: left;
+			width: 25%;
+			padding: 4px 8px;
+			max-height: 124.8px
+
+	}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.blog__float {
+			max-height: 169.7px
+
+	}
+	}
+
+
+@media (min-width: 1440px){
+
+
+.blog__float {
+			max-height: 205.8px
+
+	}
+	}
+
+
+.blog img {
+	border: 1px solid black;
+}
 
 
 .drop__dropdown {

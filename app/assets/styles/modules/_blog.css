@@ -1,0 +1,81 @@
+.blog {
+
+	&__post {
+ 			 margin-bottom: 20px;
+		}
+
+	&__date {
+			color: #3498db;
+			text-transform: uppercase;
+			letter-spacing: .2rem;
+	}
+
+	&__header {
+		text-align: left;
+		font-size: 1.1rem;
+		font-weight: 400;
+	}
+
+	h2 {
+			font-weight: 300;
+			color: #2c3e50;
+			text-transform: capitalize;
+			font-size: 2rem;
+
+	}
+
+	.indent {
+
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+
+	}	
+
+	hr {
+
+	  height: 1px; 
+
+	}
+
+	&__gallery {
+		
+		
+		padding-bottom: 5px;
+
+		@mixin clearfix;
+
+	}
+	&__float {
+
+		width: 50%;
+		float: left;
+		padding: 5px 12px;
+		overflow: hidden;
+		max-height: 121.8px;
+
+
+			@mixin iPad{
+			float: left;
+			width: 25%;
+			padding: 4px 8px;
+			max-height: 124.8px;
+		}
+
+
+		@mixin laptop {
+			max-height: 169.7px;
+		}
+
+		@mixin atLarge {
+			max-height: 205.8px;
+		}
+
+	}
+
+
+img {
+	border: 1px solid black;
+}
+
+
+}
