@@ -4,6 +4,10 @@
 	margin-left: auto;
 	margin-right: auto;
 
+	@mixin iPhone {
+		max-width: 450px;
+	}
+
 	@mixin atSmall {
 		max-width: 600px;
 	}

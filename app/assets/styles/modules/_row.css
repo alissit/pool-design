@@ -233,7 +233,7 @@
 		@mixin iPad {
 			display: block;
 			float: right;
-			width: 55%;
+			width: 63%;
 			padding-left: 12px;
 			padding-right: 12px;
 		}

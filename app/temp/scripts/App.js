@@ -10495,10 +10495,16 @@ var MobileMenu = function () {
 		this.siteHeader = (0, _jquery2.default)(".navbar");
 		this.menuIcon = (0, _jquery2.default)(".navbar__menu-icon");
 		this.menuContent = (0, _jquery2.default)(".navbar__menu-content");
+
 		this.dropMenuIcon = (0, _jquery2.default)(".drop__dropbtn");
 		this.dropMenuContent = (0, _jquery2.default)(".drop__dropdown-content");
+
+		this.dropMenuIconNews = (0, _jquery2.default)(".drop__dropbtn-news");
+		this.dropMenuContentNews = (0, _jquery2.default)(".drop__dropdown-content-news");
+
 		this.events();
 		this.drop();
+		this.dropNews();
 	}
 
 	_createClass(MobileMenu, [{
@@ -10512,6 +10518,11 @@ var MobileMenu = function () {
 			this.dropMenuIcon.click(this.toggleTheDropMenu.bind(this));
 		}
 	}, {
+		key: "dropNews",
+		value: function dropNews() {
+			this.dropMenuIconNews.click(this.toggleTheDropMenuNews.bind(this));
+		}
+	}, {
 		key: "toggleTheMenu",
 		value: function toggleTheMenu() {
 			this.menuContent.toggleClass("navbar__menu-content--is-visible");
@@ -10522,6 +10533,11 @@ var MobileMenu = function () {
 		key: "toggleTheDropMenu",
 		value: function toggleTheDropMenu() {
 			this.dropMenuContent.toggleClass("drop__dropdown-content--is-visible");
+		}
+	}, {
+		key: "toggleTheDropMenuNews",
+		value: function toggleTheDropMenuNews() {
+			this.dropMenuContentNews.toggleClass("drop__dropdown-content-news--is-visible");
 		}
 	}]);
 
