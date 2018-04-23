@@ -41,6 +41,24 @@
 		
 		
 		padding-bottom: 5px;
+		overflow: hidden;
+		max-height: 107px;
+
+
+			@mixin iPad{
+
+			max-height: 109px;
+		}
+
+
+		@mixin laptop {
+			max-height: 160px;
+		}
+
+		@mixin atLarge {
+			max-height: 205.8px;
+		}
+
 
 		@mixin clearfix;
 
@@ -63,7 +81,7 @@
 
 
 		@mixin laptop {
-			max-height: 169.7px;
+			max-height: 160px;
 		}
 
 		@mixin atLarge {
@@ -73,9 +91,7 @@
 	}
 
 
-img {
-	border: 1px solid black;
-}
+
 
 
 }

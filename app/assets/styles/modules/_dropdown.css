@@ -10,14 +10,7 @@
 		}
 	}
 
-	&__dropdown-news {
 
-		overflow: hidden;
-
-		@mixin iPad{
-			float: left;
-		}
-	}
 
 	&__dropdown &__dropbtn {
 	    margin-left: auto;
@@ -49,35 +42,7 @@
 	    }
 	}
 
-		&__dropdown-news &__dropbtn-news {
-	    margin-left: auto;
-	    margin-right: auto;
-	    font-size: 1rem;
-	    border: none;
-	    outline: none;
-	    color: white;
-	    padding: 14px 16px;
-	    background-color: inherit;
-	    font-family: inherit;
-	    margin: 0;
-	    font-weight: inherit;
 
-	    @mixin iPad{
-		   	font-size: 1rem;
-		    border: none;
-		    outline: none;
-		    color: white;
-		    padding: 14px 16px;
-		    background-color: inherit;
-		    font-family: inherit;
-		    margin: 0;
-		    font-weight: inherit;
-	    }
-
-	    @mixin laptop {
-	    	font-size: 1.3rem;
-	    }
-	}
 
 	&__dropdown-content {
 		    display: none;
@@ -108,33 +73,6 @@
 	}
 
 
-	&__dropdown-content-news {
-		    display: none;
-		    position: absolute;
-		    background-color: #0D253E;
-		    min-width: 160px;
-		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		    z-index: 1;
-
-			&--is-visible {
-				position: unset;
-	    		display: block;
-	    		background: black;
-			    width: 300px;
-			    margin-left: auto;
-			    margin-right: auto;
-			    text-align: center;
-
-			@mixin iPad {
-					    display: block;
-					    position: absolute;
-					    background-color: #0D253E;
-					    max-width: 160px;
-					    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-					    z-index: 1;
-				    }
-	}
-	}
 
 	&__dropdown-content a {
 			float: none;
@@ -150,28 +88,12 @@
 		    }
 	}
 
-	&__dropdown-content-news a {
-			float: none;
-		    color: white;
-		    padding: 12px 16px;
-		    text-decoration: none;
-		    display: block;
-		    font-size: 1rem;
-		    z-index: 2;
 
-		    @mixin iPad {
-		    	text-align: left;
-		    }
-	}
 
 	&__dropdown-content a:hover {
 
 		background-color: rgba(26, 75, 124, .85)
 	}
 
-	&__dropdown-content-news a:hover {
-
-		background-color: rgba(26, 75, 124, .85)
-	}
 
 }

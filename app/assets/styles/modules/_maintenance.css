@@ -5,6 +5,11 @@
 
 	}
 
+	&__image {
+		width: 100px;
+		height: 100px;
+	}
+
 	&__wrapper {
 		margin-left: 12px;
 		margin-right: 12px;

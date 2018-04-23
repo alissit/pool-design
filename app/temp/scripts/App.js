@@ -10475,7 +10475,7 @@ new _RevealOnScroll2.default((0, _jquery2.default)(".foot-slidera"), "85%");
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+		value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -10489,59 +10489,45 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var MobileMenu = function () {
-	function MobileMenu() {
-		_classCallCheck(this, MobileMenu);
+		function MobileMenu() {
+				_classCallCheck(this, MobileMenu);
 
-		this.siteHeader = (0, _jquery2.default)(".navbar");
-		this.menuIcon = (0, _jquery2.default)(".navbar__menu-icon");
-		this.menuContent = (0, _jquery2.default)(".navbar__menu-content");
+				this.siteHeader = (0, _jquery2.default)(".navbar");
+				this.menuIcon = (0, _jquery2.default)(".navbar__menu-icon");
+				this.menuContent = (0, _jquery2.default)(".navbar__menu-content");
 
-		this.dropMenuIcon = (0, _jquery2.default)(".drop__dropbtn");
-		this.dropMenuContent = (0, _jquery2.default)(".drop__dropdown-content");
+				this.dropMenuIcon = (0, _jquery2.default)(".drop__dropbtn");
+				this.dropMenuContent = (0, _jquery2.default)(".drop__dropdown-content");
 
-		this.dropMenuIconNews = (0, _jquery2.default)(".drop__dropbtn-news");
-		this.dropMenuContentNews = (0, _jquery2.default)(".drop__dropdown-content-news");
+				this.events();
+				this.drop();
+		}
 
-		this.events();
-		this.drop();
-		this.dropNews();
-	}
+		_createClass(MobileMenu, [{
+				key: "events",
+				value: function events() {
+						this.menuIcon.click(this.toggleTheMenu.bind(this));
+				}
+		}, {
+				key: "drop",
+				value: function drop() {
+						this.dropMenuIcon.click(this.toggleTheDropMenu.bind(this));
+				}
+		}, {
+				key: "toggleTheMenu",
+				value: function toggleTheMenu() {
+						this.menuContent.toggleClass("navbar__menu-content--is-visible");
+						this.siteHeader.toggleClass("navbar--is-expanded");
+						this.menuIcon.toggleClass("navbar__menu-icon--close-x");
+				}
+		}, {
+				key: "toggleTheDropMenu",
+				value: function toggleTheDropMenu() {
+						this.dropMenuContent.toggleClass("drop__dropdown-content--is-visible");
+				}
+		}]);
 
-	_createClass(MobileMenu, [{
-		key: "events",
-		value: function events() {
-			this.menuIcon.click(this.toggleTheMenu.bind(this));
-		}
-	}, {
-		key: "drop",
-		value: function drop() {
-			this.dropMenuIcon.click(this.toggleTheDropMenu.bind(this));
-		}
-	}, {
-		key: "dropNews",
-		value: function dropNews() {
-			this.dropMenuIconNews.click(this.toggleTheDropMenuNews.bind(this));
-		}
-	}, {
-		key: "toggleTheMenu",
-		value: function toggleTheMenu() {
-			this.menuContent.toggleClass("navbar__menu-content--is-visible");
-			this.siteHeader.toggleClass("navbar--is-expanded");
-			this.menuIcon.toggleClass("navbar__menu-icon--close-x");
-		}
-	}, {
-		key: "toggleTheDropMenu",
-		value: function toggleTheDropMenu() {
-			this.dropMenuContent.toggleClass("drop__dropdown-content--is-visible");
-		}
-	}, {
-		key: "toggleTheDropMenuNews",
-		value: function toggleTheDropMenuNews() {
-			this.dropMenuContentNews.toggleClass("drop__dropdown-content-news--is-visible");
-		}
-	}]);
-
-	return MobileMenu;
+		return MobileMenu;
 }();
 
 exports.default = MobileMenu;

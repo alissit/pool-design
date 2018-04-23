@@ -597,39 +597,10 @@ img {
 
 .wrapper {
 	clear:both;
-	max-width: 375px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-@media (min-width: 414px){
-
-
-.wrapper {
-		max-width: 450px;
-}
-	}
-
-
-@media (min-width: 530px){
-
-
-.wrapper {
-		max-width: 600px;
-}
-	}
-
-
-@media (min-width: 768px){
-
-
-.wrapper {
-		max-width: 1200px;
-		padding-left: 18px;
-		padding-right: 18px;
-}
-	}
 
 
 .wrapper-narrow {
@@ -645,6 +616,49 @@ img {
 .wrapper-narrow {
 				width: 100%
 		}
+	}
+
+
+.wrapper__blog {
+		clear: both;
+		max-width: 335px;
+		margin-left: auto;
+		margin-right: auto;
+
+
+	}
+
+
+@media (min-width: 768px){
+
+
+.wrapper__blog {
+			max-width: 650px
+
+
+	}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.wrapper__blog {
+			max-width: 900px
+
+
+	}
+	}
+
+
+@media (min-width: 1440px){
+
+
+.wrapper__blog {
+			max-width: 1200px
+
+
+	}
 	}
 
 
@@ -1197,7 +1211,7 @@ img {
 
 .about__text {
 		font-weight: 300;
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 
 
@@ -2332,6 +2346,12 @@ img {
 	}
 
 
+.maintenance__image {
+		width: 100px;
+		height: 100px;
+	}
+
+
 .maintenance__wrapper {
 		margin-left: 12px;
 		margin-right: 12px;
@@ -2808,7 +2828,40 @@ img {
 		
 		
 		padding-bottom: 5px;
+		overflow: hidden;
+		max-height: 107px;
 
+	}
+
+
+@media (min-width: 768px){
+
+
+.blog__gallery {
+
+			max-height: 109px;
+
+	}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.blog__gallery {
+			max-height: 160px;
+
+	}
+	}
+
+
+@media (min-width: 1440px){
+
+
+.blog__gallery {
+			max-height: 205.8px;
+
+	}
 	}
 
 
@@ -2847,7 +2900,7 @@ img {
 
 
 .blog__float {
-			max-height: 169.7px
+			max-height: 160px
 
 	}
 	}
@@ -2863,11 +2916,6 @@ img {
 	}
 
 
-.blog img {
-	border: 1px solid black;
-}
-
-
 .drop__dropdown {
 
 		overflow: hidden;
@@ -2878,21 +2926,6 @@ img {
 
 
 .drop__dropdown {
-			float: left
-	}
-	}
-
-
-.drop__dropdown-news {
-
-		overflow: hidden;
-	}
-
-
-@media (min-width: 768px){
-
-
-.drop__dropdown-news {
 			float: left
 	}
 	}
@@ -2934,47 +2967,6 @@ img {
 
 
 .drop__dropdown .drop__dropbtn {
-	    	font-size: 1.3rem
-	}
-	}
-
-
-.drop__dropdown-news .drop__dropbtn-news {
-	    margin-left: auto;
-	    margin-right: auto;
-	    font-size: 1rem;
-	    border: none;
-	    outline: none;
-	    color: white;
-	    padding: 14px 16px;
-	    background-color: inherit;
-	    font-family: inherit;
-	    margin: 0;
-	    font-weight: inherit;
-	}
-
-
-@media (min-width: 768px){
-
-
-.drop__dropdown-news .drop__dropbtn-news {
-		   	font-size: 1rem;
-		    border: none;
-		    outline: none;
-		    color: white;
-		    padding: 14px 16px;
-		    background-color: inherit;
-		    font-family: inherit;
-		    margin: 0;
-		    font-weight: inherit
-	}
-	}
-
-
-@media (min-width: 1024px){
-
-
-.drop__dropdown-news .drop__dropbtn-news {
 	    	font-size: 1.3rem
 	}
 	}
@@ -3015,41 +3007,6 @@ img {
 	}
 
 
-.drop__dropdown-content-news {
-		    display: none;
-		    position: absolute;
-		    background-color: #0D253E;
-		    min-width: 160px;
-		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		    z-index: 1;
-	}
-
-
-.drop__dropdown-content-news--is-visible {
-				position: unset;
-	    		display: block;
-	    		background: black;
-			    width: 300px;
-			    margin-left: auto;
-			    margin-right: auto;
-			    text-align: center;
-	}
-
-
-@media (min-width: 768px){
-
-
-.drop__dropdown-content-news--is-visible {
-					    display: block;
-					    position: absolute;
-					    background-color: #0D253E;
-					    max-width: 160px;
-					    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-					    z-index: 1
-	}
-	}
-
-
 .drop__dropdown-content a {
 			float: none;
 		    color: white;
@@ -3065,38 +3022,12 @@ img {
 
 
 .drop__dropdown-content a {
-		    	text-align: left
-	}
-	}
-
-
-.drop__dropdown-content-news a {
-			float: none;
-		    color: white;
-		    padding: 12px 16px;
-		    text-decoration: none;
-		    display: block;
-		    font-size: 1rem;
-		    z-index: 2;
-	}
-
-
-@media (min-width: 768px){
-
-
-.drop__dropdown-content-news a {
 		    	text-align: left
 	}
 	}
 
 
 .drop__dropdown-content a:hover {
-
-		background-color: rgba(26, 75, 124, .85)
-	}
-
-
-.drop__dropdown-content-news a:hover {
 
 		background-color: rgba(26, 75, 124, .85)
 	}

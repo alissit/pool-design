@@ -11,12 +11,9 @@ class MobileMenu {
 			this.dropMenuIcon = $(".drop__dropbtn");
 			this.dropMenuContent = $(".drop__dropdown-content");
 
-			this.dropMenuIconNews = $(".drop__dropbtn-news");
-			this.dropMenuContentNews = $(".drop__dropdown-content-news");
-
 			this.events();
 			this.drop();
-			this.dropNews();
+
 		}
 
 		events(){
@@ -27,9 +24,7 @@ class MobileMenu {
 			this.dropMenuIcon.click(this.toggleTheDropMenu.bind(this));
 		}
 
-		dropNews(){
-			this.dropMenuIconNews.click(this.toggleTheDropMenuNews.bind(this));
-		}
+
 
 		toggleTheMenu(){
 			this.menuContent.toggleClass("navbar__menu-content--is-visible");
@@ -42,9 +37,7 @@ class MobileMenu {
 			this.dropMenuContent.toggleClass("drop__dropdown-content--is-visible");
 		}
 
-		toggleTheDropMenuNews(){
-			this.dropMenuContentNews.toggleClass("drop__dropdown-content-news--is-visible");
-		}
+
 
 }
 
