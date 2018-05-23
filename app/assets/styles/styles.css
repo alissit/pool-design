@@ -26,5 +26,6 @@
 @import "./modules/_blog";
 @import "./modules/_dropdown";
 @import "./modules/_reveal-item";
+@import "./modules/_thanks";
 
 @import "../../../node_modules/lightbox2/dist/css/lightbox.min";

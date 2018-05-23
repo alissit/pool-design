@@ -1,0 +1,48 @@
+.thanks {
+
+
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px dotted black;
+
+	&_container {
+		width: 300px;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid green;
+		-webkit-box-shadow: 9px 9px 21px 11px rgba(0,0,0,0.75);
+		-moz-box-shadow: 9px 9px 21px 11px rgba(0,0,0,0.75);
+		box-shadow: 9px 9px 21px 11px rgba(0,0,0,0.75);
+	    padding: 15px 25px;
+	    margin: 90px auto;
+	    border-radius: 9px;
+
+
+		@mixin iPad {
+		width: 500px;
+
+		}
+	}
+
+	&_head {
+		text-align: center;
+		font-weight: 400;
+	}
+
+	&_sub {
+		text-align: center;
+		font-weight: 300;
+	}
+
+	&_icon {
+		font-size: 4rem;
+		color: green;
+		text-align: center;
+    	display: block;
+    	padding-top: 20px;
+    	padding-bottom: 10px;
+	}
+}

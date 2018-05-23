@@ -15,13 +15,8 @@
 	}
 
 	&__title{
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		font-weight: 300;
-
-
-		@mixin galaxyS5 {
-			font-size: 1.6rem;
-		}
 
 		@mixin iPad {
 			font-size: 1.5rem;
@@ -34,13 +29,24 @@
 
 	}
 
+	&__titlesub{
+		font-size: 1.2rem;
+		font-weight: 400;
+
+		@mixin iPad {
+			font-size: 1.3rem;
+			margin-top: 5px;
+		}
+		@mixin laptop {
+			font-size: 1.4rem;
+			margin-top: 12px;
+		}
+
+	}
+
 	&__description{
 		font-size: .9rem;
 		font-weight: 300;
-
-		@mixin galaxyS5 {
-			font-size: 1rem;
-		}
 
 		@mixin laptop {
 			font-size: 1.2rem;
@@ -74,7 +80,7 @@
 			position: absolute;
 			background-color: rgba(26, 75, 124, .8);
 			border-radius: 8px;
-    		top: 440px;
+    		top: 333px;
     		margin-left: 15px;
 			margin-right: 15px;
 			padding-bottom: 2px;
@@ -93,8 +99,6 @@
 			color: #EFF5F8;
 			text-align: center;
 			padding: 15px 15px;
-
-    		top: 425px;
     		font-size: 1.1rem;
 
 		}
