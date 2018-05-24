@@ -215,6 +215,7 @@ img {
 
 
 .row-6__left  {
+		 box-sizing: border-box;
 		width: 100%;
 
 	}
@@ -615,6 +616,26 @@ img {
 
 .wrapper-narrow {
 				width: 100%
+		}
+	}
+
+
+@media (min-width: 1024px){
+
+
+.wrapper_medium {
+			max-width: 950px
+
+		}
+	}
+
+
+@media (min-width: 1440px){
+
+
+.wrapper_medium {
+				max-width: 1200px
+
 		}
 	}
 
@@ -2000,7 +2021,7 @@ img {
 
 
 .footer__full-website {
-			font-size: 200;
+			font-weight: 200;
 			font-size: .8rem;
 			margin-top: 0;
 		}
@@ -2141,7 +2162,6 @@ img {
 .forms-title {
 			font-weight: 500;
 		   margin-bottom:10px;
-		   color: &textColor;
 		   text-shadow: #fdf2e4 0 1px 0;
 		}
 

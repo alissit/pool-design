@@ -137,6 +137,7 @@
 	}
 
 	&-6__left  {
+		 box-sizing: border-box;
 		width: 100%;
 
 		@mixin atMedium {

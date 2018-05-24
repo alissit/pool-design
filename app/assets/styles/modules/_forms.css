@@ -6,7 +6,6 @@
 		&-title {
 			font-weight: 500;
 		   margin-bottom:10px;
-		   color: &textColor;
 		   text-shadow: #fdf2e4 0 1px 0;
 		}
 
